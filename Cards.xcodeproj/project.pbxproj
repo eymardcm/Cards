@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C00DC8DD2BA8ECA20055BCD3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00DC8DC2BA8ECA20055BCD3 /* CardView.swift */; };
 		C03651FA2BA7D32100FC761B /* CardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03651F92BA7D32100FC761B /* CardsApp.swift */; };
 		C03651FC2BA7D32100FC761B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03651FB2BA7D32100FC761B /* ContentView.swift */; };
 		C03651FE2BA7D32200FC761B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03651FD2BA7D32200FC761B /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C00DC8DC2BA8ECA20055BCD3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		C03651F62BA7D32100FC761B /* Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C03651F92BA7D32100FC761B /* CardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsApp.swift; sourceTree = "<group>"; };
 		C03651FB2BA7D32100FC761B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,8 +61,8 @@
 				C03651F92BA7D32100FC761B /* CardsApp.swift */,
 				C03651FB2BA7D32100FC761B /* ContentView.swift */,
 				C03651FD2BA7D32200FC761B /* Assets.xcassets */,
+				C00DC8DC2BA8ECA20055BCD3 /* CardView.swift */,
 				C03651FF2BA7D32200FC761B /* Preview Content */,
-				C036520E2BA7F04C00FC761B /* images */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -71,13 +73,6 @@
 				C03652002BA7D32200FC761B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		C036520E2BA7F04C00FC761B /* images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C03651FC2BA7D32100FC761B /* ContentView.swift in Sources */,
+				C00DC8DD2BA8ECA20055BCD3 /* CardView.swift in Sources */,
 				C03651FA2BA7D32100FC761B /* CardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
