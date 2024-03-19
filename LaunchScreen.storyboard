@@ -15,9 +15,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="U2b-7d-vUY">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="mY7-Bi-lPv">
                                 <rect key="frame" x="146.66666666666666" y="350.66666666666669" width="100" height="151"/>
                                 <subviews>
@@ -36,10 +33,6 @@
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                         <color key="backgroundColor" red="0.70785404856875234" green="0.43984669454017544" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="U2b-7d-vUY" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="1OE-Cw-rHe"/>
-                            <constraint firstItem="U2b-7d-vUY" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="2C6-qC-M7t"/>
-                            <constraint firstAttribute="trailing" secondItem="U2b-7d-vUY" secondAttribute="trailing" id="cBq-Hw-gFW"/>
-                            <constraint firstAttribute="bottom" secondItem="U2b-7d-vUY" secondAttribute="bottom" id="fv7-Ze-KzQ"/>
                             <constraint firstItem="mY7-Bi-lPv" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="mfi-kd-Li9"/>
                             <constraint firstItem="mY7-Bi-lPv" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="rRD-YZ-tqH"/>
                         </constraints>
@@ -51,7 +44,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="LaunchScreen" width="2048" height="2048"/>
         <image name="logo-swift-outlined" width="100" height="100"/>
     </resources>
 </document>
